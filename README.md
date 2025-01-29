@@ -1,6 +1,5 @@
 <h1 align="center">
   <br>
-   <a ><img src="https://user-images.githubusercontent.com/62745858/229376399-edede393-f1e7-4e91-8c68-d76510ece76f.png" width="100"></a><br>
    React Native Chat App
    
    ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -60,7 +59,7 @@ https://github.com/Ctere1/react-native-chat/assets/62745858/bcde4aa0-d2f2-4d8c-8
  
  ```bash
  # Clone this repository
- $ git clone https://github.com/Ctere1/react-native-chat
+ $ git clone https://github.com/Puteraeaa/App-Chat
  # Go into the repository
  $ cd react-native-chat
  # Install dependencies
@@ -70,7 +69,7 @@ https://github.com/Ctere1/react-native-chat/assets/62745858/bcde4aa0-d2f2-4d8c-8
  > For running the app:
  ```bash
  # Go into the repository
- $ cd react-native-chat
+ $ cd App-Chat
  # Run the expo
  $ npx expo start
  ```
@@ -80,64 +79,6 @@ https://github.com/Ctere1/react-native-chat/assets/62745858/bcde4aa0-d2f2-4d8c-8
  > [!Warning]  
    Do not forget to setup `.env` file for Firebase connection. Please see the [doc](https://firebase.google.com/docs/firestore/quickstart) or see this [comment](https://github.com/Ctere1/react-native-chat/issues/1#issuecomment-2414810841)
 
-
-## 🏗️Building Guide
- 
-To build this application, follow these steps:
-
-- Before you can build the application, you need to configure your environment variables. Ensure you have a `.env` file with the necessary Firebase configuration. Push the `.env` file to the EAS environment using the following command:
-
-  ```bash
-  eas secret:push --scope project --env-file .env
-  ```
-
-- With the environment variables set and dependencies installed, you can build the APK for Android. Use the following command:
-
-  ```bash
-  eas build -p android --profile preview
-  ```
-
-This command will start the build process using the preview profile (see [eas.json](/eas.json)). The build process will package your application into an APK file that you can install on an Android device.
-
->[!Note] 
-  Environment variables defined in a `.env` file are only considered by the Expo CLI. Therefore, if you upload a `.env` file to EAS Build, it can be used to inline `EXPO_PUBLIC_` variables into your application code.
-
->[!Note]
-  However, the recommended practice is to use `.env` files in your local environment, while defining environment variables for EAS Build in `eas.json`. Environment variables defined in your `eas.json` build profile will be used when evaluating your `app.config.js` when running eas build and will be available to all steps of the build process on the EAS Build server.      
-
->[!Note]
-  This may result in some duplication of variables between `.env` files and eas.json build profiles, but makes it easier to see what variables will be applied across all environments.
-
-## 🪟Screenshots
-
-### **Login-Signup Pages**
-|                   Login                   |                  Signup                   |
-| :---------------------------------------: | :---------------------------------------: |
-| <img src="./images/ss1.jpg"  width="250"> | <img src="./images/ss2.jpg"  width="250"> |
-
-
-### **Chats Page**
-|                   Chats                   |                   Users                   |                Group chat                 |               Delete chats                |
-| :---------------------------------------: | :---------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-| <img src="./images/ss3.jpg"  width="250"> | <img src="./images/ss4.jpg"  width="250"> | <img src="./images/ss5.jpg"  width="250"> | <img src="./images/ss7.jpg"  width="250"> |
-
-
-### **Settings Page**
-|                 Settings                  |                  Profile                  |                    Help                    |                  Account                   |
-| :---------------------------------------: | :---------------------------------------: | :----------------------------------------: | :----------------------------------------: |
-| <img src="./images/ss8.jpg"  width="250"> | <img src="./images/ss9.jpg"  width="250"> | <img src="./images/ss10.jpg"  width="250"> | <img src="./images/ss11.jpg"  width="250"> |
-
-
-### **Chat Page**
-|                Emoji Panel                 |                Note to Self                |              Main Chat Screen              |          Chat Information Screen           |
-| :----------------------------------------: | :----------------------------------------: | :----------------------------------------: | :----------------------------------------: |
-| <img src="./images/ss12.jpg"  width="250"> | <img src="./images/ss13.jpg"  width="250"> | <img src="./images/ss14.jpg"  width="250"> | <img src="./images/ss15.jpg"  width="250"> |
-
-
-###  **Others**
-| Message Indicator |
-| :---------------: |
-| <img src="./images/ss16.jpg"  width="250">|
 
 ## 📝Credits
 
@@ -151,18 +92,6 @@ This software uses the following packages:
 - [react-native-emoji-modal](https://github.com/staltz/react-native-emoji-modal)
 
 
-## ©License
-![GitHub](https://img.shields.io/github/license/Ctere1/react-native-chat)
+=====================================================================================
 
-[LICENSE](./LICENSE)
-
-
-
-## 📌Contributors
-
-![Alt](https://repobeats.axiom.co/api/embed/0d9c40f20e57bc518a7e1419e18f6b6cfa57873d.svg "Repobeats analytics image")
-
-<a href="https://github.com/Ctere1/react-native-chat/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Ctere1/react-native-chat" />
-</a>
 "# App-Chat" 
