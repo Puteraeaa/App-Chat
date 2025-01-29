@@ -1,22 +1,11 @@
 <h1 align="center">
   <br>
-   React Native Chat App
+   App Chat App
    
    ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
    ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
    ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
 </h1>
-
-<p align="center">
-  <a href="#ℹ%EF%B8%8F-introduction">Introduction</a> •
-  <a href="#features">Features</a> •
-  <a href="#installation-guide">Installation Guide</a> •
-  <a href="#%EF%B8%8Fbuilding-guide">Building Guide</a> •
-  <a href="#screenshots">Screenshots</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#license">License</a> •
-  <a href="#contributors">Contributors</a> 
-</p>
 
 <div align="center">
 
